@@ -5,7 +5,7 @@ int a,b,c;
 printf("Enter 3 sides of a triangle : ");
 scanf("%d%d%d",&a,&b,&c);
 if(a+b>c && a+c>b && b+c>a ){
-	if(a == b & b == c){
+	if(a == b && b == c){
 	printf("This is an equilateral triangle.\n");
 	}
 	else if(a == b || b == c || a == c){
