@@ -6,8 +6,7 @@ printf("Enter two numbers and operator : num1 operator num2\n");
 scanf("%d%c%d",&a,&ch,&b);
 switch(ch){
 	case '+':
-	       c=a+b;
-		printf("Result: %d\n",c);
+		printf("Result: %d\n",a+b);
 		break;
 	case '-':
 		printf("Result: %d\n",a-b);
