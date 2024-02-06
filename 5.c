@@ -1,28 +1,25 @@
 #include<stdio.h>
 int main(){
 int a,b,c;
-in ch;
-printf("Enter two numbers :");
-scanf("%d%d",&a,&b);
-printf("Enter the operator :");
-scanf("%s",&ch);
-//printf("%d%c",a,ch);
+char ch;
+printf("Enter two numbers and operator : num1 operator num2\n");
+scanf("%d%c%d",&a,&ch,&b);
 switch(ch){
 	case '+':
 	       c=a+b;
-		printf("Result: %d",c);
+		printf("Result: %d\n",c);
 		break;
 	case '-':
-		printf("Result: %d",a-b);
+		printf("Result: %d\n",a-b);
 		break;
-	case('*'):
-		printf("Result: %d",a*b);
+	case '*':
+		printf("Result: %d\n",a*b);
 		break;
-	case('/'):
-		printf("Result: %d",a/b);
+	case '/':
+		printf("Result: %d\n",a/b);
 		break;
-	case('%'):
-		printf("Result: %d",a%b);
+	case '%':
+		printf("Result: %d\n",a%b);
 		break;
 }
 
