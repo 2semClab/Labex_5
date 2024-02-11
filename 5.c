@@ -2,8 +2,11 @@
 int main(){
 int a,b,c;
 char ch;
-printf("Enter two numbers and operator : num1 operator num2\n");
-scanf("%d%c%d",&a,&ch,&b);
+printf("Enter two numbers ");
+scanf("%d %d", &a, &b);
+printf("Enter the operator ");
+scanf(" %c", &ch);
+
 switch(ch){
 	case '+':
 		printf("Result: %d\n",a+b);
